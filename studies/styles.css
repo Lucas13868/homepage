@@ -1,0 +1,27 @@
+ul {
+    list-style-position: inside;
+}
+
+ul ul {
+    padding-left: 40px;
+}
+
+.study {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: "txt img";
+    gap: 10px;
+    margin: 50px 0;
+}
+
+.study__text {
+    grid-area: txt;
+}
+
+.study__img {
+    grid-area: img;
+    width: 100%;
+    height: auto;
+    display: block;
+    min-width: 0;
+}
