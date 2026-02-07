@@ -26,11 +26,11 @@ theme_btn.addEventListener("click", function() {
     body.classList.toggle("dark");
 
     if (body.classList.contains("dark")){
-        theme_btn.innerText = "Light theme"; //changing button text
+        theme_btn.innerText = "Tema claro"; //changing button text
         localStorage.setItem("theme", "dark"); //saving current theme
     }
     else {
-        theme_btn.innerText = "Dark theme";
+        theme_btn.innerText = "Tema escuro";
         localStorage.setItem("theme", "light");
     }
 });

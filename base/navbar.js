@@ -9,16 +9,16 @@ class NavBar extends HTMLElement {
                     <nav class="nav">
                         <ul class="nav__list">
                             <li class="nav__item">
-                                <a href="/" class="nav__link">About me</a>
+                                <a href="/" class="nav__link">Sobre mim</a>
                             </li>
                             <li class="nav__item">
-                                <a href="/studies/" class="nav__link">Studies</a>
+                                <a href="/studies/" class="nav__link">Estudos</a>
                             </li>
                             <li class="nav__item">
-                                <a href="/technologies/" class="nav__link">Technologies</a>
+                                <a href="/technologies/" class="nav__link">Tecnologias</a>
                             </li>
                             <li class="nav__item">
-                                <a href="/contact/" class="nav__link">Contact</a>
+                                <a href="/contact/" class="nav__link">Contatos</a>
                             </li>
                             <li class="nav__config">
                                 <button class="config-btn" id="config-btn">
@@ -27,14 +27,14 @@ class NavBar extends HTMLElement {
 
                                 <div class="config" hidden>
                                     <form class="config__form" id="configForm">
-                                        <button type="button" id="theme-btn" class="theme-btn">Dark theme</button>
+                                        <button type="button" id="theme-btn" class="theme-btn">Tema escuro</button>
 
                                         <label>
-                                            Font size <br>
+                                            Tamanho da fonte: <br>
                                             <input type="range" min=18 max=28 id="slider">
                                         </label>
                                         <div class="font-opts">
-                                            Font family:
+                                            Fonte:
                                            
                                             <label class="radio"><input type="radio" name="font" value="Roboto" checked> Roboto</label>
                                             <label class="radio"><input type="radio" name="font" value="Roboto Mono"> Roboto Mono</label>
